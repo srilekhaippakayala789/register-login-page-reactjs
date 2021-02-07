@@ -1,0 +1,85 @@
+.form_block {
+  width: 400px;
+  display: table;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(6, 36, 26);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.form_block > #title {
+  background: #1c8667;
+  padding: 10px;
+  color: rgb(224, 235, 231);
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 2);
+}
+
+.form_block > .body {
+  background: #eaedf0;
+  padding: 10px;
+  display: table;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 35px;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding: 4px 5px;
+  background: white;
+  border: 1px solid #d0d0d0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.loginbtn {
+  height: 35px;
+  box-sizing: border-box;
+  padding: 4px 10px;
+  background: #f5f4ea;
+  border: 1px solid #d0d0d0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.loginbtn:hover {
+  background: #c3c3ba;
+}
+
+.registerbtn {
+  float: right;
+  background: #3d8577;
+  color: #ffffff;
+  height: 35px;
+  box-sizing: border-box;
+  padding: 4px 10px;
+  border: 1px solid #d0d0d0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: -35px;
+}
+
+.registerbtn:hover {
+  background: #2d6358;
+}
+
+.Error {
+  padding: 10px;
+  background-color: #e4b8b8;
+  border: 1px solid #c9696b;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
